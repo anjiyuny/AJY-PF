@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>AJY PORTFOLIO</title>
+</head>
+<body>
+  <div id="wrap">
+    <header>
+      <div class="logo">jiyoon</div>
+      <ul class="menu">
+        <li id="main">main</li>
+        <li id="2">2</li>
+        <li id="3">3</li>
+        <li id="4">4</li>
+      </ul>
+    </header>
+    <main>
+      <!-- section 01 -- visual section -->
+      <section id="sec01" class="moveTextWrap">
+        <!-- section 01 -- textRolling -->
+        <div class="box">
+          <div class="rolling">Jiyoon portFolio</div>
+        </div>
+        <div class="box">
+          <div class="rolling">Jiyoon portFolio</div>
+        </div>
+        <div class="box">
+          <div class="rolling">Jiyoon portFolio</div>
+        </div>
+        <div class="box">
+          <div class="rolling">Jiyoon portFolio</div>
+        </div>
+        <div class="box">
+          <div class="rolling">Jiyoon portFolio</div>
+        </div>
+        <div class="box">
+          <div class="rolling">Jiyoon portFolio</div>
+        </div>
+        <div class="box">
+          <div class="rolling">Jiyoon portFolio</div>
+        </div>
+        <div class="box">
+          <div class="rolling">Jiyoon portFolio</div>
+        </div>
+        <!-- //section 01 -- textRolling -->
+      </section>
+      <!-- // section 01 -- visual section -->
+      <section id="sec02">
+        <!-- 여기 가로 스크롤 넣으면 좋을듯? -->
+        <div>섹션 2</div>
+      </section>
+      <section id="sec03">
+        <!-- 화면 전환되는거 필요 -->
+        <div>섹션 3</div>
+      </section>
+      <section id="sec04">
+        <!--  -->
+        <div>섹션 4</div>
+      </section>
+    </main>
+    <footer>
+      <!-- 푸터 캡처이미지 참고 -->
+      
+    </footer>
+  </div>
+  <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+  <script src="./js/textRolling.js"></script>
+
+  <script>
+
+    /*
+    const textWidth = document.getElementById('text1').offsetWidth;
+    const timePerPass = textWidth / animationDistance * duration;
+    console.log('timePerPass', timePerPass);
+    gsap.to(".rolling", {
+      duration: timePerPass,
+      ease: "none",
+      x: -100,
+      modifiers: {
+        x: gsap.utils.unitize(x => parseFloat(x) % (textWidth + 100)) //force x value to be between 0 and 500 using modulus
+      },
+      repeat: -1
+    });
+    */
+</script>
+</body>
+</html>
